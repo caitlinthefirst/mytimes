@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+}
