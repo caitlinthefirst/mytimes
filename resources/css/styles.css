@@ -9,7 +9,6 @@ header {
   z-index: 1;
   width: 100%;
   height: 80px;
-  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   font-family: Verdana, sans-serif;
@@ -22,14 +21,9 @@ header img {
   margin-right: 10px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  color: MediumAquamarine;
-}
-
 header nav {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-right: 40px;
 }
@@ -38,4 +32,47 @@ nav span a {
   display: inline-block;
   padding: 10px 20px;
   color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: MediumAquamarine;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+.content section {
+  border: 1px solid black;
+  font-family: helvetica;
+}
+
+.content h1 {
+  border: 3px solid black;
+}
+
+.bigcol {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  border: 2px solid black;
+}
+
+.medcol {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.newsbite {
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px;
+  border: 2px solid black;
 }
