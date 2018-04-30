@@ -9,11 +9,25 @@ header {
   padding-bottom: 10px;
   justify-content: space-between;
   padding: 10px 20px;
+}
 
+header img {
+  padding-right: 10px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   color: MediumAquamarine;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  padding: 15px;
+  color: black;
 }
